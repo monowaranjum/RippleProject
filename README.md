@@ -7,3 +7,12 @@ To run this project, follow the following steps:
 1. First: run the dbhelper.py ( This will create the database schema and tables for you )
 2. Second: run the data_collector.py . Set the variables in the query generation function to your wish. If you want to reduce or increase the wait between requests then just change the variable of waiting time in the code.
 3. Run the analyzer.py to run some initial analysis to see if the graph works. 
+
+If you want direct access to the SQLite database for the scraped data, please follow this link: https://drive.google.com/file/d/1siUUxuu629WVcOYDoqOemMVAzQD6VVCJ/view?usp=sharing. Unfortunately Github free version does not allow more than 100 MB file storage. That is why the data is being shared in the drive. 
+
+If you want direct access to the CSV files for the scraped data, please follow this link: 
+This file contains all the necessary csv files to run the notebooks. 
+
+To understand how these CSV files were created please refer to the SQL script in the repository. 
+
+If you do have any question regarding this repository, please mail us: anjumm1@myumanitoba.ca or chowdh26@myumanitoba.ca
