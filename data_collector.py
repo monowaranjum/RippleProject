@@ -11,6 +11,7 @@ import dbhelper
 
 
 def construct_queries(_marker=None):
+    # This function constructs a request by using the following quesry parameters and send them to Ripple server to get the data.
     limit = "100"
     start = "2020-08-03T05:26:10"
     end = "2020-08-15T00:00:00"
@@ -39,6 +40,7 @@ def construct_queries(_marker=None):
 
 
 def get_data(request_url):
+    # This function reads the responds from the server and formats it
     response = requests.get(request_url)
 
     if response.status_code == 200:
